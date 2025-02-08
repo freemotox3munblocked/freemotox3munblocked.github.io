@@ -13,36 +13,6 @@ body, html {
     background-color: #000000;
     overflow: hidden;
 }
-.topcontainer {
-    display: flex;
-    gap: 2%;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .topitem:nth-child(1),
-  .topitem:nth-child(2),
-  .topitem:nth-child(3),
-  .topitem:nth-child(4) {
-    width: 20.5%;
-    height: 23.5%;
-    font-size: 18px;
-  }
-  .topitem {
-    background-color: blueviolet;
-    padding: 10px;
-  }
-  .topitem.active {
-    background-color: blue;
-  }
-  .topitem a{
-    color: #ffffff;
-    text-decoration: none;
-  }
-  .topitem a:hover{
-    color: black;
-    text-decoration: underline;
-  }
 #orientation {
     margin: 0 auto;
     position: fixed;
