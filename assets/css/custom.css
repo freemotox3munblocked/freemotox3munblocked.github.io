@@ -1,0 +1,130 @@
+iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+overflow-y: auto;
+}
+.content-wrapper {
+display: flex;
+justify-content: center;
+padding: 30px;
+background: #f4f4f4;
+}
+
+.content-container {
+max-width: 800px;
+background: #ffffff;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.8;
+color: #333;
+text-align: justify;
+}
+
+.content-container h1 {
+font-size: 32px;
+color: blueviolet;
+text-align: center;
+margin-bottom: 15px;
+line-height: 34px;
+}
+
+.content-container p {
+margin-bottom: 12px;
+}
+
+.content-container strong {
+color: blueviolet;
+}
+
+.content-container em {
+color: #007bff;
+font-style: normal;
+font-weight: 600;
+}
+.topcontainer {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .topitem:nth-child(1),
+  .topitem:nth-child(2),
+  .topitem:nth-child(3),
+  .topitem:nth-child(4) {
+    width: 20.5%;
+    height: 23.5%;
+    font-size: 18px;
+  }
+  .topitem {
+    background-color: blueviolet;
+    padding: 10px;
+  }
+  .topitem.active {
+    background-color: blue;
+  }
+  .topitem a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .topitem a:hover{
+    color: black;
+    text-decoration: underline;
+  }
+  .footer-copyright {
+    background: #222; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.footer-copyright .container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-brand {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #ff6600; /* Orange hover effect */
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .footer-copyright {
+        padding: 12px;
+    }
+    .footer-brand {
+        font-size: 14px;
+    }
+    .footer-links {
+        font-size: 12px;
+    }
+}
