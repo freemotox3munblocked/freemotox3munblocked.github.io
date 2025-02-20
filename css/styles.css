@@ -793,3 +793,7 @@ body {
   #gamePlayButton:hover {
     background-color: #0056b3;
   }
+  .navbar a.navbar-brand {
+    color: black;
+    text-decoration: underline;
+  }
